@@ -1,5 +1,16 @@
 import { useState, useEffect } from 'react';
 
+/*
+! USAGE:
+* const text = useTyping(
+*   [
+*     'First Line.',
+*     'Second Line.'
+*   ],
+*   80, 15, 1000
+*);
+*/
+
 const useTyping = (t: string[], typingSpeed: number = 80, deletingSpeed: number = 15, waiting: number = 1000) => {
   const [text, setText] = useState('');
   const [active, setActive] = useState(0);
