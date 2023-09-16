@@ -1,6 +1,12 @@
+import Browse from "../components/Browse";
+import Hero from "../components/Hero";
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Hero />
+      <Browse />
+    </>
   );
 };
 
