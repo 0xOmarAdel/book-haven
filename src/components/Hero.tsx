@@ -54,7 +54,7 @@ const Hero = () => {
               {statistics.map((stat) => (
                 <div
                   key={stat.id}
-                  className="border border-gray-600 rounded-xl py-4 px-6 flex flex-col justify-center items-center gap-2 font-semibold"
+                  className="border border-gray-600 rounded-xl py-5 px-6 flex flex-col justify-center items-center gap-2 font-semibold"
                 >
                   {stat.icon}
                   <div className="flex flex-row gap-1 text-xl">
