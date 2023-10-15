@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply bg-gray-50;
-  box-sizing: border-box;
+body {
+  background-color: #f2f5f7;
 }
 
-.Toastify__toast-icon > svg {
-  @apply fill-primaryRed;
+section {
+  @apply py-20;
 }
 
 ::-webkit-scrollbar {
@@ -20,9 +19,9 @@ html {
 }
  
 ::-webkit-scrollbar-thumb {
-  @apply bg-primaryRed;
+  @apply bg-primaryGreen;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-darkRed;
+  @apply bg-darkGreen;
 }
