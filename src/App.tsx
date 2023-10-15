@@ -12,8 +12,8 @@ const App: React.FC = () => {
     <>
       <Routes>
         <Route path="*" element={<ErrorPage />} />
+        <Route path="/" element={<Home />} />
         <Route path="/" element={<MainLayout />}>
-          <Route path="/" element={<Home />} />
           <Route path="/category/:id" element={<Category />} />
           <Route path="/book/:id" element={<Book />} />
           <Route path="/author/:id" element={<Author />} />
