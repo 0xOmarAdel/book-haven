@@ -47,8 +47,8 @@ const Hero = () => {
       </h1>
       <div className="h-full flex flex-row justify-center gap-10">
         <img src={image} alt="" className="w-[35rem] shrink-0" />
-        <div className="w-[35rem] py-20 flex flex-col justify-between grow-0">
-          <p className="text-4xl tracking-wide">{text}</p>
+        <div className="w-[35rem] py-[4.5rem] flex flex-col justify-between grow-0">
+          <p className="text-4xl leading-[1.3] tracking-wide">{text}</p>
           <div className="w-fit flex flex-col gap-8">
             <div className="grid grid-cols-2 gap-6 text-gray-700">
               {statistics.map((stat) => (
