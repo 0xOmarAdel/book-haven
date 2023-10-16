@@ -7,8 +7,11 @@ const Navbar = () => {
 
   const fixedNav = () => {
     if (
-      document.body.scrollTop >= navRef.current!.offsetHeight ||
-      document.documentElement.scrollTop >= navRef.current!.offsetHeight
+      document.body.scrollTop >=
+        navRef.current!.offsetHeight -
+          (navRef.current!.offsetHeight * 30) / 100 ||
+      document.documentElement.scrollTop >=
+        navRef.current!.offsetHeight - (navRef.current!.offsetHeight * 30) / 100
     ) {
       setNavIsFixed(true);
     } else {
