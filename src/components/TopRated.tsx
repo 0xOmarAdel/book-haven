@@ -10,7 +10,10 @@ import animationData2 from "../assets/green-stars.json";
 
 const TopRated = () => {
   return (
-    <div id="top-rated" className="section relative py-16 max-w-7xl mx-auto">
+    <div
+      id="top-rated"
+      className="section relative pt-24 max-w-7xl mx-auto"
+    >
       <div className="absolute top-24 right-24">
         <Lottie
           options={{
@@ -39,7 +42,7 @@ const TopRated = () => {
           width={200}
         />
       </div>{" "}
-      <h1 className="mb-16 text-6xl text-gray-700 text-center font-semibold">
+      <h1 className="mb-16 text-5xl text-gray-700 text-center font-semibold">
         Top Rated
       </h1>
       <Swiper
